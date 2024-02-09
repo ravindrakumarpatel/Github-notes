@@ -65,3 +65,11 @@ or git add .        --if multiple file needs to be added in staging area
 
 commit - it is the record of change
 git commit -m "some changes"
+
+
+==============================================================
+** Push command
+
+push - to command local repo content to remote repo
+
+git push origin main
