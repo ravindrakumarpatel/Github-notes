@@ -20,6 +20,13 @@ pwd - current working directory
 After install and setup we need to configure Git
 
 **Git configure:
-git config
+--git config --global user.name "My Name"
+git config --global user.name "ravindrakumarpatel"
+--git config --global user.email "My email id"
+git config --global user.email "er.patelravindra@gmail.com"
+git config --list
+--To check what all setup has been done using git config --list command
+
+
 
 
