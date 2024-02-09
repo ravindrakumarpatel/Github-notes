@@ -27,6 +27,15 @@ git config --global user.email "er.patelravindra@gmail.com"
 git config --list
 --To check what all setup has been done using git config --list command
 
+**Clone & Status:
+Clone - Cloning a repository on our local machine
+git clone <- some link ->
+Example: remote to local copy need to do clone
+remote - Github
+local - laptop/PC
+Status - displays the state of the code
+git status
+
 
 
 
