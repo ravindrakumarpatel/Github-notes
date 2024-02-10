@@ -66,10 +66,27 @@ or git add .        --if multiple file needs to be added in staging area
 commit - it is the record of change
 git commit -m "some changes"
 
-
 ==============================================================
 ** Push command
 
 push - to command local repo content to remote repo
 
 git push origin main
+
+===========================================================================
+**Workflow:
+
+Local Git
+
+Git Repo-->clone-->changes-->add-->commit-->push
+
+===========================================================================
+**Git Branch: Branch commands:
+
+git branch - to check branch
+git branch -M main - to rename branch (where main is a new name in syntax)
+git checkout <-branch name-> - to navigate
+git checkout -b <-new branch name-> - to create new branch
+git branch -d <-branch name-> - to delete branch
+
+============================================================================
