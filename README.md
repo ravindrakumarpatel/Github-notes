@@ -3,11 +3,11 @@ Github learning notes
 https://www.youtube.com/watch?v=Ez8F0nW6S-w
 
 =======================================================================
-**Create Githib Account:
+**Create Githib Account**
 --Create a new reporsitory
 --Make your First commit (2 stage -- ADD and then Commit)
 
-**Setting up Git:
+**Setting up Git**
 Windows
 --Visual Studio Code
 --Git Bash
@@ -15,14 +15,14 @@ OR MAC
 --Mac (Terminal)
 
 =========================================================================
-Then open Git we can use basic commands:
+**Then open Git we can use basic commands**
 git --version
 ls -lrt
 pwd - current working directory
 
 After install and setup we need to configure Git
 
-**Git configure:
+**Git configure**
 --git config --global user.name "My Name"
 git config --global user.name "ravindrakumarpatel"
 --git config --global user.email "My email id"
@@ -31,7 +31,7 @@ git config --list
 --To check what all setup has been done using git config --list command
 
 =========================================================================
-**Clone & Status:
+**Clone & Status**
 --Clone - Cloning a repository on our local machine
 git clone <- some link ->
 Example: remote to local copy need to do clone
@@ -57,7 +57,7 @@ Then we need to first add (staged) status
 Then we have to finally commit (unchanged) status
 
 ===============================================================================
-**Add & Commit:
+**Add & Commit**
 
 add - adds new or changed files in your working directory to the Git staging area
 git add <-file name->
@@ -68,14 +68,14 @@ commit - it is the record of change
 git commit -m "some changes"
 
 ==============================================================
-** Push command
+** Push command:
 
 push - to command local repo content to remote repo
 
 git push origin main
 
 ===========================================================================
-**Workflow:
+**Workflow**
 
 Local Git
 
@@ -91,7 +91,7 @@ git checkout -b <-new branch name-> - to create new branch
 git branch -d <-branch name-> - to delete branch
 
 ============================================================================
-**Merging code:
+**Merging code**
 
 Way1
 git diff <-branch name-> - to compare commits, branches, files and more)
@@ -102,6 +102,32 @@ Create a Pull request (PR) -
 It lets you tell others about changes you have pushed to a branch in a repository on GitHub
 
 ==============================================================================
-**Pull Command:
+**Pull Command**
 git pull origin main
 used to fetch and download content from a remote repo and immdediately update the local repo to match that content
+
+=============================================================================
+**Resolving Merge Conflicts
+An event that takes place when Git is unable to automatically resolve differences in code between two commits
+2 ways:
+1) Pull Request
+2) Git merge from command line
+
+===============================================================================
+**Undoing changes**
+Case 1: staged changes
+git reset <-file name->
+git reset
+
+Case 2: commited changes (for one commit)
+git reset HEAD~1
+
+Case 3: commited changes (for many commits)
+git reset <-commit hash->
+git reset --hard <-commit hash->                
+(**Note**: git log - to check the older commits and has value)
+
+====================================================================================
+**Fork**
+A Fork is a new repository that shares code and visibility settings with the original "upstream" repository.
+Fork is rough copy
