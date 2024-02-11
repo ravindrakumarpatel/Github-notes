@@ -1,5 +1,6 @@
 # Github
 Github learning notes
+https://www.youtube.com/watch?v=Ez8F0nW6S-w
 
 =======================================================================
 **Create Githib Account:
@@ -90,3 +91,17 @@ git checkout -b <-new branch name-> - to create new branch
 git branch -d <-branch name-> - to delete branch
 
 ============================================================================
+**Merging code:
+
+Way1
+git diff <-branch name-> - to compare commits, branches, files and more)
+git merge <-branch name-> - to merge two branches
+
+Way2
+Create a Pull request (PR) - 
+It lets you tell others about changes you have pushed to a branch in a repository on GitHub
+
+==============================================================================
+**Pull Command:
+git pull origin main
+used to fetch and download content from a remote repo and immdediately update the local repo to match that content
